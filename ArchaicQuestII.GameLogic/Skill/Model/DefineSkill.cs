@@ -242,7 +242,13 @@ public static class DefineSkill
         };
     }
     
-    
+    public static Skill Throw()
+    {
+        return new Skill
+        {
+            Name = "Throw",
+        };
+    }
 
 
     #endregion
